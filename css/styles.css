@@ -20,7 +20,8 @@ body {
 
 h3 {
   margin-top: 0;
-  font-size: 0.6rem;
+  font-size: 0.8rem
+  color: orange;
 }
 
 /* blue buttons with white bold text */

@@ -42,33 +42,106 @@ cnndata.forEach(function(foodEntry) {
 
 // event listeners for the fly to buttons
 
-$('#china').on('click', function() {
+$('#Thailand').on('click', function() {
   map.flyTo({
-    center: [112.556005, 37.818758],
+    center: [101.167541,14.898107],
     zoom: initialZoom
   })
 })
 
-$('#michigan').on('click', function() {
-
-  var michiganLngLat = [-83.10538, 42.50448]
-
+$('#Italy').on('click', function() {
   map.flyTo({
-    center: michiganLngLat,
+    center: [12.485342,42.803571],
     zoom: initialZoom
   })
 })
 
-$('#colombia').on('click', function() {
-  var colombiaLngLat = [-73.997208, 0.721615]
-
+$('#Japan').on('click', function() {
   map.flyTo({
-    center: colombiaLngLat,
+    center: [138.517340,36.144392],
     zoom: initialZoom
   })
 })
 
-$('#nyc').on('click', function() {
+$('#China').on('click', function()  {
+  map.flyTo({
+    center: [104.251660,34.052432],
+    zoom: initialZoom
+  })
+})
+
+$('#Mexico').on('click', function() {
+  map.flyTo({
+    center: [-102.506153,23.616165],
+    zoom: initialZoom
+  })
+})
+
+$('#Germany').on('click', function() {
+  map.flyTo({
+    center: [10.307977,50.951708],
+    zoom: initialZoom
+  })
+})
+
+$('#Indonesia').on('click', function() {
+  map.flyTo({
+    center: [121.911994,-3.856122],
+    zoom: initialZoom
+  })
+})
+
+$('#Malaysia').on('click', function() {
+  map.flyTo({
+    center: [101.965966,3.497335],
+    zoom: initialZoom
+  })
+})
+
+$('#Mozambique').on('click', function() {
+  map.flyTo({
+    center: [35.341175,-17.554260],
+    zoom: initialZoom
+  })
+})
+
+$('#Portugal').on('click', function(){
+  map.flyTo({
+    center: [18.691907,39.636541],
+    zoom: initialZoom
+  })
+})
+
+$('#Poland').on('click', function() {
+  map.flyTo({
+    center: [18.691907,52.514951],
+    zoom: initialZoom
+  })
+})
+
+$('#South Africa').on('click', function() {
+  map.flyTo({
+    center: [23.982869,-30.985880],
+    zoom: initialZoom
+  })
+})
+
+$('#France').on('click', function() {
+  map.flyTo({
+    center: [2.377590,46.604845],
+    zoom: initialZoom
+  })
+})
+
+$('#Gabon').on('click', function() {
+  map.flyTo({
+    center: [11.717760,-0.697840],
+    zoom: initialZoom
+  })
+})
+
+
+$('#United States').on('click', function() {
   map.flyTo({
     center: initialCenterPoint,
     zoom: initialZoom
