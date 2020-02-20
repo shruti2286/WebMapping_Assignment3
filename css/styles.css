@@ -26,7 +26,7 @@ h3 {
 
 /* blue buttons with white bold text */
 .flyto-button {
-  background: #0084aa;
+  background: indianred;
   color: #FFF;
   padding: 11px;
   border: none;
@@ -49,7 +49,7 @@ button:hover {
   top: 0;
   bottom: 0;
   width: 300px;
-  background-image:"https://previews.123rf.com/images/ewanew/ewanew1904/ewanew190400068/123282377-cartoon-food-print-seamless-vector-pattern-background-fast-food.jpg";
+  background-color: beige;
   padding: 25px;
   box-sizing: border-box;
 }
