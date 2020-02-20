@@ -4,7 +4,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2hydXRpMjE1IiwiYSI6ImNrNnY2N25yNTBoaW8zcnFjZ
 
 // we want to return to this point and zoom level after the user interacts
 // with the map, so store them in variables
-var initialCenterPoint = [-73.987, 40.735]
+var initialCenterPoint = [-19.855993, 21.215601]
 var initialZoom = 10.67
 
 
@@ -31,12 +31,12 @@ map.addControl(new mapboxgl.NavigationControl());
 
 
 // iterate over each object in studentData
-studentData.forEach(function(studentEntry) {
+cnndata.forEach(function(foodEntry) {
   // for each object in the studentData, add a marker to the map with a popup
   new mapboxgl.Marker()
-    .setLngLat([studentEntry.longitude, studentEntry.latitude])
+    .setLngLat([foodEntry.longitude, foodEntry.latitude])
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-     .setHTML(`${studentEntry.name} thinks ${studentEntry.pizza_place} is the best pizza in the world!`))
+     .setHTML(`${foodEntry.name} goes to ${foodEntry.food_item} from ${foodEntry.country}🏆`))
     .addTo(map);
 })
 
