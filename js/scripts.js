@@ -4,7 +4,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2hydXRpMjE1IiwiYSI6ImNrNnY2N25yNTBoaW8zcnFjZ
 
 // we want to return to this point and zoom level after the user interacts
 // with the map, so store them in variables
-var initialCenterPoint = [-19.855993, 21.215601]
+var initialCenterPoint = [-73.987, 40.735]
 var initialZoom = 10.67
 
 
