@@ -5,7 +5,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2hydXRpMjE1IiwiYSI6ImNrNnY2N25yNTBoaW8zcnFjZ
 // we want to return to this point and zoom level after the user interacts
 // with the map, so store them in variables
 var initialCenterPoint = [-73.987, 40.735]
-var initialZoom = 20.67
+var initialZoom = 10.67
 
 
 // create an object to hold the initialization options for a mapboxGL map
@@ -21,14 +21,6 @@ var map = new mapboxgl.Map(initOptions);
 
 // add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
-
-// make a single marker in central park
- new mapboxgl.Marker()
-   .setLngLat([-73.974087,40.770718])
-   .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML('I am in Central Park'))
-   .addTo(map);
-
 
 // iterate over each object in studentData
 cnndata.forEach(function(foodEntry) {
