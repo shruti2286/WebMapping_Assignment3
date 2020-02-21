@@ -26,7 +26,7 @@ map.addControl(new mapboxgl.NavigationControl());
 cnndata.forEach(function(foodEntry) {
   // for each object in the studentData, add a marker to the map with a popup
   new mapboxgl.Marker()
-  .marker(width 30px
+  .Marker(width 30px
   height 30px
   border-radius 50% 50% 50% 0
   background #89849b
