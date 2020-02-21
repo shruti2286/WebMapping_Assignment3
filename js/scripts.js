@@ -111,7 +111,7 @@ $('#Poland').on('click', function() {
   })
 })
 
-$('#South Africa').on('click', function() {
+$('#SouthAfrica').on('click', function() {
   map.flyTo({
     center: [23.982869,-30.985880],
     zoom: initialZoom
@@ -133,9 +133,9 @@ $('#Gabon').on('click', function() {
 })
 
 
-$('#United States').on('click', function() {
+$('#UnitedStates').on('click', function() {
   map.flyTo({
-    center: initialCenterPoint,
+    center: [-101.100790,39.064944],
     zoom: initialZoom
   })
 })

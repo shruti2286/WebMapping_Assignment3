@@ -74,7 +74,7 @@ var cnndata = [
     "food_item": " Donuts",
     "longitude": -101.100790,
     "latitude": 39.064944,
-    "country": "United States"
+    "country": "UnitedStates"
   },
   {
     "name": "Rank 12",
@@ -95,7 +95,7 @@ var cnndata = [
     "food_item": "Bunny chow",
     "longitude": 23.982869,
     "latitude": -30.985880,
-    "country": "South Africa"
+    "country": "SouthAfrica"
   },
   {
     "name": "Rank 15",
