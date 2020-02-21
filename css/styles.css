@@ -24,6 +24,12 @@ h3 {
   color: orange;
 }
 
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  width:50%;
+}
 /* blue buttons with white bold text */
 .flyto-button {
   padding: 7px;

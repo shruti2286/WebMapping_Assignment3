@@ -28,7 +28,8 @@ cnndata.forEach(function(foodEntry) {
   new mapboxgl.Marker()
     .setLngLat([foodEntry.longitude, foodEntry.latitude])
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-     .setHTML(`${foodEntry.name} goes to ${foodEntry.food_item} from ${foodEntry.country}🏆.`))
+    .setHTML(`${foodEntry.name} goes to ${foodEntry.food_item} from ${foodEntry.country}🏆. <br/><img src="${foodEntry.image}" height="100px" width="100px" class="center">`))
+
     .addTo(map);
 })
 
