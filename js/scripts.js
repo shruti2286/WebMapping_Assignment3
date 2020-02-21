@@ -25,8 +25,8 @@ map.addControl(new mapboxgl.NavigationControl());
 // iterate over each object in studentData
 cnndata.forEach(function(foodEntry) {
   // for each object in the studentData, add a marker to the map with a popup
-  new mapboxgl.Marker(
-    width 30px
+  new mapboxgl.Marker()
+  .marker(width 30px
   height 30px
   border-radius 50% 50% 50% 0
   background #89849b
@@ -45,8 +45,7 @@ cnndata.forEach(function(foodEntry) {
     margin 8px 0 0 8px
     background #2F2F2F
     position absolute
-    border-radius 50%
-  )
+    border-radius 50%)
     .setLngLat([foodEntry.longitude, foodEntry.latitude])
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
      .setHTML(`${foodEntry.name} goes to ${foodEntry.food_item} from ${foodEntry.country}🏆`))
