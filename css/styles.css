@@ -26,10 +26,10 @@ h3 {
 
 /* blue buttons with white bold text */
 .flyto-button {
-  background: rosybrown;
+  background: yellow;
   color: #FFF;
   padding: 7px;
-  border: none;
+  border: rosybrown;
   font-weight: 300;
   font-size: 0.5rem;
   width: 45%;
