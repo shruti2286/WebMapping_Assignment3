@@ -32,7 +32,7 @@ h3 {
   border: none;
   font-weight: 300;
   font-size: 0.5rem;
-  width: 40%;
+  width: 50%;
   margin-bottom:15px;
   margin-right: 5px;
   margin-left: 5px;
@@ -43,7 +43,7 @@ h3 {
 /* on hover, make the background darker and turn the cursor to a pointer */
 button:hover {
   cursor: pointer;
-  background-color: #006987;
+  background-color: #006;
 }
 
 /* sidebar is fixed with and positioned to the left */
