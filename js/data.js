@@ -53,7 +53,7 @@ var cnndata = [
     "food_item": "Chicken muamba",
     "longitude": 11.717760,
     "latitude": -0.697840,
-    "country": "Gabon"
+    "country": "Gabon",
   },
   {
     "name": "Rank 9",
