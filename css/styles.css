@@ -26,16 +26,15 @@ h3 {
 
 /* blue buttons with white bold text */
 .flyto-button {
-  color: #FFF;
   padding: 7px;
-  border: rosybrown;
+  color: black;
+  background-color: pink;
   font-weight: 300;
-  font-size: 0.5rem;
-  width: 45%;
-  margin-bottom:10px;
-  margin-right: 3px;
-  margin-left: 3px;
-  float: left;
+  font-size: 0.8rem;
+  width: 80%;
+  margin-left: 18px;
+  margin-bottom:15px;
+  float: center;
   display: inline;
 }
 
@@ -52,7 +51,8 @@ button:hover {
   top: 0;
   bottom: 0;
   width: 300px;
-  background-color: beige;
+  overflow: auto;
+  background-color: white;
   padding: 25px;
   box-sizing: border-box;
 }

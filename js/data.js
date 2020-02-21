@@ -4,7 +4,7 @@ var cnndata = [
     "food_item": "Massaman curry",
     "longitude": 101.167541,
     "latitude": 14.898107,
-    "country": "Thailand"
+    "country": "Thailand",
   },
   {
     "name": "Rank 2",
@@ -32,7 +32,7 @@ var cnndata = [
     "food_item": "Peking duck",
     "longitude": 104.251660,
     "latitude": 34.052432,
-    "country": "China"
+    "country": "China",
   },
   {
     "name": "Rank 6",
